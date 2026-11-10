@@ -16,3 +16,5 @@
 main{min-width:0}.mobile-files>*{min-width:0}
 @media(max-width:860px){.app-shell{grid-template-columns:minmax(0,1fr)}}
 .play-symbol{display:block;width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:8px solid currentColor}.stop-symbol{display:block;width:9px;height:9px;background:currentColor;border-radius:1px}
+
+.tool-shed-link{font-size:11px;color:var(--accent);text-underline-offset:3px;white-space:nowrap}

@@ -45,4 +45,4 @@ Both are original screenshot bytes returned by the browser, in JPEG format. They
 
 Audio synthesis, buffer scheduling, and exported PCM were tested. Human listening through actual speakers/headphones was not performed. Physical iOS/Android devices, Safari, Firefox, screen-reader sessions, and prolonged background/recovery behavior were not tested. Automated tests cover the interruption and pending-resume cases, but do not prove every mobile browser's autoplay behavior.
 
-No remote repository, public URL, or production deployment was created in this task. Tool Shed integration is prepared via the manifest and screenshots, not published.
+This document records prototype QA. Publication is handled by the repository’s Check and deploy Pulse Foundry workflow after user approval. Live deployment evidence is reported separately from these local tests.

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "kind": "app",
+  "title": "Kata Pulse Foundry",
+  "repository": "kata-app-inspired-by-fl-studio-codex-dot",
+  "section": "Kata Tool Shed",
+  "category": "Audio",
+  "tagline": "Four voices. Sixteen steps. Your next little obsession.",
+  "description": "A small, local-first drum sequencer. Build a four-voice loop, adjust its tempo, and save a WAV or editable project.",
+  "entryPoint": "index.html",
+  "status": "local-prototype",
+  "features": [
+    "Four synthesized drum voices",
+    "16-step sequencer",
+    "Play/stop and 60\u2013180 BPM tempo",
+    "Per-voice level and mute",
+    "Two starter loops and a blank loop",
+    "WAV export",
+    "JSON project import/export",
+    "Local autosave",
+    "Undo and redo",
+    "Keyboard grid navigation"
+  ],
+  "screenshots": [
+    {
+      "src": "docs/screenshots/desktop.jpg",
+      "width": 1165,
+      "height": 1122,
+      "alt": "Kata Pulse Foundry desktop four-voice step sequencer with transport, starter loops, and output controls",
+      "caption": "Midnight circuit starter loop, stopped at step one.",
+      "capturedAt": "2026-11-10T00:34:57.111570+00:00",
+      "sha256": "38ec05ea5a5e836a5d94f0690687141884b1333e69a75f3dc0e8fe5e8fd79640",
+      "source": "http://127.0.0.1:4173/",
+      "captureMethod": "Chromium via CUA, genuine full-page browser capture; original JPEG bytes, no image editing."
+    },
+    {
+      "src": "docs/screenshots/mobile.jpg",
+      "width": 485,
+      "height": 1559,
+      "alt": "Kata Pulse Foundry narrow-screen layout with a horizontally scrollable four-voice step sequencer",
+      "caption": "Midnight circuit starter loop, stopped at step one.",
+      "capturedAt": "2026-11-10T00:34:57.117465+00:00",
+      "sha256": "e8921aebf13f249f03c2311cd8d624fb77b7c6f1d0e33df39886e438a177fd2f",
+      "source": "http://127.0.0.1:4173/",
+      "captureMethod": "Chromium via CUA, genuine full-page browser capture; original JPEG bytes, no image editing."
+    }
+  ],
+  "inspiration": {
+    "name": "FL Studio",
+    "url": "https://www.image-line.com/fl-studio/"
+  },
+  "license": "MIT"
+}

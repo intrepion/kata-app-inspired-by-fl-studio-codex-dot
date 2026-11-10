@@ -6,6 +6,12 @@ An original, deliberately small browser drum sequencer inspired by the pattern-f
 
 ![Pulse Foundry desktop sequencer](docs/screenshots/desktop.jpg)
 
+## Open the app
+
+[Launch Kata Pulse Foundry](https://intrepion.github.io/kata-app-inspired-by-fl-studio-codex-dot/) · [Kata Tool Shed](https://intrepion.github.io/tools/)
+
+The app is publicly accessible on GitHub Pages. Project data remains local to your own browser.
+
 ## Start locally
 
 Requires Node.js 18 or newer. There are **no third-party runtime dependencies**, installation steps, accounts, external fonts, or sample downloads.
@@ -21,7 +27,7 @@ npm run check   # Syntax checks and automated tests
 npm run build   # Static distributable in dist/
 ```
 
-`PORT` and `HOST` can override the local server's defaults. The server binds to loopback by default. `app.json` describes the app for the Kata Tool Shed catalog; it does not claim a public deployment.
+`PORT` and `HOST` can override the local server's defaults. The server binds to loopback by default. `app.json` describes the app for the Kata Tool Shed catalog; it includes the public repository and application links.
 
 ## Make a loop
 

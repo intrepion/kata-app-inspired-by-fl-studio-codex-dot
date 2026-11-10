@@ -8,7 +8,7 @@
   "tagline": "Four voices. Sixteen steps. Your next little obsession.",
   "description": "A small, local-first drum sequencer. Build a four-voice loop, adjust its tempo, and save a WAV or editable project.",
   "entryPoint": "index.html",
-  "status": "publication-prepared",
+  "status": "published",
   "features": [
     "Four synthesized drum voices",
     "16-step sequencer",
@@ -49,5 +49,7 @@
     "name": "FL Studio",
     "url": "https://www.image-line.com/fl-studio/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repositoryUrl": "https://github.com/intrepion/kata-app-inspired-by-fl-studio-codex-dot",
+  "appUrl": "https://intrepion.github.io/kata-app-inspired-by-fl-studio-codex-dot/"
 }
